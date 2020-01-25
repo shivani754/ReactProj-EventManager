@@ -1,0 +1,4 @@
+{
+    "ATLAS_URI":"mongodb+srv://Shivani:shivani@cluster0-vpahb.gcp.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret":"event_myJwtSecret"
+}
