@@ -1,0 +1,59 @@
+.contP{
+    font-size:1.5vw;
+    font-style:italic;
+    align-content:center;
+    background-color: black;
+  }
+  #card1 {
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+   padding-bottom: 5px;
+    border:4 solid black;
+    border-block-color: coral;
+    
+  }
+  #card1:hover img{
+    transform:scale(1.1);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition:all 0.1s ease;
+    opacity: 0.3;
+  }
+  #card1:hover .card-img-overlay {
+    opacity:1.0;
+  }
+  #card1-body {
+    padding: 2px 5px;
+   
+    align-content:center;
+    width:100%;
+    text-align: center;
+  }
+  .card-img-overlay {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    margin-top: 39%;
+    margin-left: 4%;
+    text-align: center;
+  }
+  .tickBtn,.tickBtn1,.view{
+    background-color: rgb(76, 160, 175);
+    border: none;
+    color: white;
+    padding: 0.5vw 2vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .tickBtn1{
+    opacity: 0;
+  }
+ 
+  Link{
+    text-decoration: none;
+    color: black;
+  }

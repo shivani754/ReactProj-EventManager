@@ -1,0 +1,112 @@
+body{
+    background-color: black;
+  }
+  *{overflow-x:hidden;}
+  * {
+    box-sizing: border-box;
+  }
+  .car-head{
+    position: absolute;
+      top: 40%;
+      left: 50%;
+      font-size: 2.5vw;
+      color:rgb(196, 236, 120);
+     opacity:0.8;
+     z-index:100;
+      transform: translate(-50%, -50%);
+     }
+     .car-for{
+      position: absolute;
+      top: 50%;
+      left: 13%;
+      z-index:100;
+      font-size: 1vw;
+     }
+  td.events,td.blogs{
+    text-align: center;
+  }
+  td.events:hover,td.blogs:hover{
+    background-color: coral;
+  }
+  h5,p{
+   color:white;
+  }
+  
+  .container12 {
+    padding: 2px 5px;
+    align-content:center;
+    height:500;
+    width: 100vw;
+  }
+  
+ #mainDiv2{
+    height:100vh;
+    outline-offset: 0 0 0 0;
+     background-image: linear-gradient(45deg,white, white); 
+    /* background-image: url('https://cdn.hipwallpaper.com/i/95/38/LjUYrp.jpg'); */
+  }
+ #mainDiv2::-webkit-scrollbar{
+    display: none;
+  }
+  
+  /*.d-block{
+    height: 100px;
+    width: 100vw;
+  }
+  */
+  #searchInp{
+    width:70vw;
+    padding:0.5vw;
+    box-shadow:0.1vw 1vh #888888;
+  }
+  .searBtn{
+    box-shadow:0.1vw 1vh #888888;
+    padding:0.5vw;
+    width:3vw;
+    height:3.4vw;
+  }
+  .hr1{
+    color: white;
+    background-color:white;
+    height: 1;
+  }
+  .tbl{
+    width:20vw;
+    font-size:1vw;
+    color:white;
+    padding:1vw;
+    border:1;
+    border-color:white;
+  }
+  .eImg{
+    width:5vw;
+  }
+  .view{
+    background-color: rgb(76, 160, 175);
+    border: none;
+    color: white;
+    padding: 0.5vw 2vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .view:hover{
+    background-color: rgb(238, 255, 80);
+    color:black;
+    transition: 0.3s;
+    transform:scale(1.1);
+  }
+  
+  
+  #mainDiv3{
+    height:100vh;
+    background-color:rgb(93, 120, 124);
+  }
+  Link{
+    text-decoration: none;
+    color: black;
+  }
+  
